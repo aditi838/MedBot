@@ -6,7 +6,7 @@ langchain-chroma==0.2.3
 langchain-community==0.3.22
 langchain-core==0.3.56
 langchain-groq==0.3.2
-langchain-huggingface==0.2.0chromadb>=0.6.3
+langchain-huggingface==0.2.0
 sentence-transformers==4.1.0
 tavily-python==0.7.2
 python-dotenv==1.1.0
