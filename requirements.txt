@@ -11,7 +11,7 @@ sentence-transformers==4.1.0
 tavily-python==0.7.2
 python-dotenv==1.1.0
 beautifulsoup4==4.13.4
-chromadb>=0.6.3
+chromadb>=0.3.21
 requests==2.32.3
 requests-html==0.10.0
 requests-oauthlib==2.0.0
