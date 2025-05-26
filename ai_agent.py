@@ -15,6 +15,9 @@ from langchain.schema.messages import SystemMessage
 from tavily import TavilyClient
 import torch
 from difflib import SequenceMatcher
+import pysqlite3 as pysqlite3_mod
+import sys
+sys.modules["sqlite3"] = pysqlite3_mod
 
 # Load environment variables
 dotenv_path = os.path.join(os.path.dirname(__file__), '.env')
