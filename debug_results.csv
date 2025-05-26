@@ -1,0 +1,187 @@
+question,response,expected_intent,predicted_intent,accuracy,response_time,similarity_score,hallucination,source_tag,semantic_similarity
+Any recent cases of measles in California?,"I'm happy to help! According to the California Department of Public Health, there have been reported cases of measles in California this year. However, I'm a large language model, I don't have access to real-time data or specific information about current outbreaks.
+
+If you're concerned about measles or have been exposed to someone with measles, I recommend reaching out to your healthcare provider or local health department for the most up-to-date information and guidance. They can assess your individual situation and offer personalized advice.
+
+Remember, it's always better to err on the side of caution when it comes to public health concerns. If you're experiencing symptoms or have concerns, don't hesitate to reach out to a medical professional for proper evaluation and care.",real_time,"i would classify the intent of this user message as ""medical_fact"". the user is asking about recent cases of measles in california, indicating that they are looking for factual information about a specific medical topic.",1.0,2.57,1.0,False,LLM,0.804
+Any recent cases of measles in California?,"I'm happy to help! According to the California Department of Public Health, there have been reported cases of measles in California this year. However, I'm a large language model, I don't have access to real-time data or specific information about current outbreaks.
+
+If you're concerned about measles or have been exposed to someone with measles, I recommend reaching out to your healthcare provider or local health department for the most up-to-date information and guidance. They can assess your individual situation and offer personalized advice.
+
+Remember, it's always better to err on the side of caution when it comes to public health concerns. If you're experiencing symptoms or have concerns, don't hesitate to reach out to a medical professional for proper evaluation and care.",real_time,i would classify the intent of this user message as: medical_fact,1.0,1.16,1.0,False,LLM,0.804
+I feel dizzy and lightheaded.,"Oh no, that doesn't sound like a great feeling! I'm so sorry you're experiencing that. Dizziness and lightheadedness can be really unsettling.
+
+To better understand what might be going on, can you tell me a bit more about when these symptoms started? Was it sudden or did they come on gradually?
+
+Also, where do you feel the dizziness and lightheadedness in your body? Is it more in your head, or do you feel it in your whole body?
+
+Lastly, how severe would you say the symptoms are? Are they mild, moderate, or quite severe?
+
+Remember, I'm not a doctor, and if your symptoms are severe or persistent, it's always best to consult with a medical professional for proper evaluation and care.",vague_symptom,the intent of this user message is: specific_symptom,1.0,1.25,1.0,False,LLM,0.57
+Is there a flu outbreak in New York?,"I'm happy to help! As a large language model, I don't have access to real-time data or specific information about flu outbreaks in New York or any other location. However, I can suggest some reliable sources where you can find the most up-to-date information:
+
+1. The New York State Department of Health (NYSDOH) website: They provide information on flu activity, outbreaks, and vaccination resources.
+2. The Centers for Disease Control and Prevention (CDC) website: They track flu activity across the United States and provide updates on outbreaks, vaccination, and treatment.
+3. Your local healthcare provider or hospital: They can provide you with information on local flu activity, outbreaks, and vaccination options.
+
+If you're experiencing symptoms or have concerns about the flu, I recommend reaching out to them directly for personalized advice and care. Remember, it's always better to err on the side of caution when it comes to your health!",real_time,intent: real_time,1.0,1.34,1.0,False,LLM,0.672
+Is there a flu outbreak in New York?,"I'm happy to help! As a large language model, I don't have access to real-time data or specific information about flu outbreaks in New York or any other location. However, I can suggest some reliable sources where you can find the most up-to-date information:
+
+1. The New York State Department of Health (NYSDOH) website: They provide information on flu activity, outbreaks, and vaccination resources.
+2. The Centers for Disease Control and Prevention (CDC) website: They track flu activity across the United States and provide updates on outbreaks, vaccination, and treatment.
+3. Your local healthcare provider or hospital: They can provide you with information on local flu activity, outbreaks, and vaccination options.
+
+If you're experiencing symptoms or have concerns about the flu, I recommend reaching out to them directly for personalized advice and care. Remember, it's always better to err on the side of caution when it comes to your health!",real_time,"i would classify the intent of the user message as ""real_time"". the user is seeking current or up-to-date information about a specific location, indicating a desire for real-time or timely information.",1.0,1.91,1.0,False,LLM,0.672
+I can't sleep well lately.,"I'm so sorry to hear that you're struggling with sleep. Not getting enough restful sleep can be really frustrating and affect your overall well-being.
+
+Can you tell me a bit more about your sleep patterns? For example, how long have you been having difficulty sleeping, and what does a typical night's sleep look like for you?
+
+Also, do you find that you're having trouble falling asleep, staying asleep, or waking up frequently during the night? Are there any specific thoughts or feelings that might be contributing to your difficulty sleeping?
+
+Remember, I'm not a doctor, and if your sleep issues persist, it's always best to consult with a healthcare professional for personalized guidance and support.",vague_symptom,intent: vague_symptom,1.0,1.26,1.0,False,LLM,0.634
+I can't sleep well lately.,"I'm so sorry to hear that you're struggling with sleep. Not getting enough restful sleep can be really frustrating and affect your overall well-being.
+
+Can you tell me a bit more about your sleep patterns? For example, how long have you been having difficulty sleeping, and what does a typical night's sleep look like for you?
+
+Also, do you find that you're having trouble falling asleep, staying asleep, or waking up frequently during the night? Are there any specific thoughts or feelings that might be contributing to your difficulty sleeping?
+
+Lastly, have you noticed any other symptoms like fatigue, mood changes, or difficulty concentrating during the day?
+
+Remember, I'm not a doctor, and if your sleep issues persist, it's always best to consult with a healthcare professional for personalized guidance and support.",vague_symptom,intent: vague_symptom,1.0,3.21,1.0,False,LLM,0.652
+Any recent cases of measles in California?,"I'm happy to help! According to the California Department of Public Health, there have been reported cases of measles in California this year. However, I'm a large language model, I don't have access to real-time data or specific information about current outbreaks.
+
+If you're concerned about measles or have been exposed to someone with measles, I recommend reaching out to your healthcare provider or local health department for the most up-to-date information and guidance. They can assess your individual situation and offer personalized advice.
+
+Remember, it's always better to err on the side of caution when it comes to public health concerns. If you're experiencing symptoms or have concerns, don't hesitate to reach out to a medical professional for proper evaluation and care.",real_time,"i would classify the intent of this user message as: medical_fact.
+
+the message is seeking information about recent cases of measles in california, which is a specific medical fact.",1.0,19.42,1.0,False,LLM,0.804
+I feel dizzy and lightheaded.,"Oh no, that doesn't sound like a great feeling! I'm so sorry you're experiencing that. Dizziness and lightheadedness can be really unsettling.
+
+To better understand what might be going on, can you tell me a bit more about when these symptoms started? Was it sudden or did they come on gradually?
+
+Also, where do you feel the dizziness and lightheadedness in your body? Is it more in your head, or do you feel it in your whole body?
+
+Lastly, how severe would you say the symptoms are? Are they mild, moderate, or quite severe?
+
+Remember, I'm not a doctor, and if your symptoms are severe or persistent, it's always best to consult with a medical professional for proper evaluation and care.",vague_symptom,the intent of this user message is: specific_symptom,1.0,62.34,1.0,False,LLM,0.57
+I can't sleep well lately.,"I'm so sorry to hear that you're struggling with sleep. Not getting enough restful sleep can be really frustrating and affect your overall well-being.
+
+Can you tell me a bit more about your sleep patterns? For example, how long have you been having difficulty sleeping, and what does a typical night's sleep look like for you?
+
+Also, do you find that you're having trouble falling asleep, staying asleep, or waking up frequently during the night? Are there any specific thoughts or feelings that might be contributing to your difficulty sleeping?
+
+Lastly, have you noticed any other symptoms like fatigue, mood changes, or difficulty concentrating during the day?
+
+Remember, I'm not a doctor, and if your sleep issues persist, it's always best to consult with a healthcare professional for personalized guidance and support.",vague_symptom,the intent of this user message is: vague_symptom,1.0,1.21,1.0,False,LLM,0.652
+I can't sleep well lately.,"I'm so sorry to hear that you're struggling with sleep. Not getting enough restful sleep can be really frustrating and affect your overall well-being.
+
+Can you tell me a bit more about your sleep patterns? For example, how long have you been having difficulty sleeping, and what does a typical night's sleep look like for you?
+
+Also, do you find that you're having trouble falling asleep, staying asleep, or waking up frequently during the night? Are there any specific thoughts or feelings that might be contributing to your difficulty sleeping?
+
+Lastly, have you noticed any other symptoms like fatigue, mood changes, or difficulty concentrating during the day?
+
+Remember, I'm not a doctor, and if your sleep issues persist, it's always best to consult with a healthcare professional for personalized guidance and support.",vague_symptom,the intent of this user message is: vague_symptom,1.0,5.25,1.0,False,LLM,0.652
+Any recent cases of measles in California?,"I'm happy to help! According to the California Department of Public Health, there have been reported cases of measles in California this year. However, I'm a large language model, I don't have access to real-time data or specific information about current outbreaks.
+
+If you're concerned about measles or have been exposed to someone with measles, I recommend reaching out to your healthcare provider or local health department for the most up-to-date information and guidance. They can assess your individual situation and offer personalized advice.
+
+Remember, it's always better to err on the side of caution when it comes to public health concerns. If you're experiencing symptoms or have concerns, don't hesitate to reach out to a medical professional for proper evaluation and care.",real_time,the intent of this user message is: medical_fact,1.0,25.56,1.0,False,LLM,0.804
+Is COVID-19 spreading in India?,"I'm happy to help! As a large language model, I don't have access to real-time data or specific information about current outbreaks. However, I can suggest some reliable sources where you can find the most up-to-date information on COVID-19 in India:
+
+1. The Ministry of Health and Family Welfare (MoHFW) website: They provide updates on COVID-19 cases, vaccination, and guidelines.
+2. The World Health Organization (WHO) website: They track COVID-19 cases globally and provide updates on outbreaks and response efforts.
+4. Your local healthcare provider or hospital: They can provide you with local guidance and information on COVID-19 cases in your area.
+
+If you're experiencing symptoms or have concerns about COVID-19, I recommend reaching out to a medical professional for proper evaluation and care. Remember, it's always better to err on the side of caution when it comes to public health concerns.",real_time,"i would classify the intent as ""medical_fact"". the user is asking a specific question about covid-19 and its spread in india, seeking information about the current situation.",1.0,27.74,1.0,False,LLM,0.673
+Any recent cases of measles in California?,"I'm happy to help! According to the California Department of Public Health, there have been reported cases of measles in California this year. However, I'm a large language model, I don't have access to real-time data or specific information about current outbreaks.
+
+If you're concerned about measles or have been exposed to someone with measles, I recommend reaching out to your healthcare provider or local health department for the most up-to-date information and guidance. They can assess your individual situation and offer personalized advice.
+
+Remember, it's always better to err on the side of caution when it comes to public health concerns. If you're experiencing symptoms or have concerns, don't hesitate to reach out to a medical professional for proper evaluation and care.",real_time,intent: medical_fact,1.0,30.53,1.0,False,LLM,0.804
+Is there a flu outbreak in New York?,"I'm happy to help! As a large language model, I don't have access to real-time data or specific information about flu outbreaks in New York or any other location. However, I can suggest some reliable sources where you can find the most up-to-date information:
+
+1. The New York State Department of Health (NYSDOH) website: They provide information on flu activity, outbreaks, and vaccination resources.
+2. The Centers for Disease Control and Prevention (CDC) website: They track flu activity across the United States and provide updates on outbreaks, vaccination, and treatment.
+3. Your local healthcare provider or hospital: They can provide you with information on local flu activity, outbreaks, and vaccination options.
+
+If you're experiencing symptoms or have concerns about the flu, I recommend reaching out to a medical professional for proper evaluation and care. Remember, it's always better to err on the side of caution when it comes to your health!",real_time,the intent of this user message is: real_time,1.0,31.65,1.0,False,LLM,0.681
+I feel dizzy and lightheaded.,"Oh no, that doesn't sound like a great feeling! I'm so sorry you're experiencing that. Dizziness and lightheadedness can be really unsettling.
+
+To better understand what might be going on, can you tell me a bit more about when these symptoms started? Was it sudden or did they come on gradually?
+
+Also, where do you feel the dizziness and lightheadedness? Is it more in your head, or do you feel it in your whole body?
+
+Lastly, how severe would you say the symptoms are? Are they mild, moderate, or quite severe?
+
+Remember, I'm not a doctor, and if your symptoms are severe or persistent, it's always best to consult with a healthcare professional for proper evaluation and care.",vague_symptom,the intent of this user message is: specific_symptom,1.0,33.57,1.0,False,LLM,0.577
+I can't sleep well lately.,"I'm so sorry to hear that you're struggling with sleep. Not getting enough restful sleep can be really frustrating and affect your overall well-being.
+
+Can you tell me a bit more about your sleep patterns? For example, how long have you been having difficulty sleeping, and what does a typical night's sleep look like for you?
+
+Also, do you find that you're having trouble falling asleep, staying asleep, or waking up frequently during the night? Are there any specific thoughts or feelings that might be contributing to your difficulty sleeping?
+
+Lastly, have you noticed any other symptoms like fatigue, mood changes, or difficulty concentrating during the day?
+
+Remember, I'm not a doctor, and if your sleep issues persist, it's always best to consult with a healthcare professional for personalized guidance and support.",vague_symptom,intent: vague_symptom,1.0,35.65,1.0,False,LLM,0.652
+Is there a flu outbreak in New York?,"I'm happy to help! As a large language model, I don't have access to real-time data or specific information about flu outbreaks in New York or any other location.",real_time,the intent of this user message is: real_time,1.0,37.33,1.0,False,LLM,0.703
+Is there a flu outbreak in New York?,"I'm happy to help! As a large language model, I don't have access to real-time data or specific information about flu outbreaks in New York or any other location. However, I can suggest some reliable sources where you can find the most up-to-date information:
+
+1. The New York State Department of Health (NYSDOH) website: They provide information on flu activity, outbreaks, and vaccination resources.
+2. The Centers for Disease Control and Prevention (CDC) website: They track flu activity across the United States and provide updates on outbreaks, vaccination, and treatment.
+3. Your local healthcare provider or hospital: They can provide you with information on local flu activity, outbreaks, and vaccination options.
+
+If you're experiencing symptoms or have concerns about the flu, I recommend reaching out to a medical professional for proper evaluation and care. Remember, it's always better to err on the side of caution when it comes to your health!",real_time,"i would classify the intent as ""medical_fact"". the user is asking about a specific piece of information related to a flu outbreak in a particular location, which indicates a desire to know a factual answer rather than seeking medical advice or describing a symptom.",1.0,38.22,1.0,False,LLM,0.681
+I can't sleep well lately.,"I'm so sorry to hear that you're struggling with sleep. Not getting enough restful sleep can be really frustrating and affect your overall well-being.
+
+Can you tell me a bit more about your sleep patterns? For example, how long have you been having difficulty sleeping, and what does a typical night's sleep look like for you?
+
+Also, do you find that you're having trouble falling asleep, staying asleep, or waking up frequently during the night? Are there any specific thoughts or feelings that might be contributing to your difficulty sleeping?
+
+Lastly, have you noticed any other symptoms like fatigue, mood changes, or difficulty concentrating during the day?
+
+Remember, I'm not a doctor, and if your sleep issues persist, it's always best to consult with a healthcare professional for personalized guidance and support.",vague_symptom,intent: vague_symptom,1.0,40.85,1.0,False,LLM,0.652
+I can't sleep well lately.,"I'm so sorry to hear that you're struggling with sleep. Not getting enough restful sleep can be really frustrating and affect your overall well-being.
+
+Can you tell me a bit more about your sleep patterns? For example, how long have you been having difficulty sleeping, and what does a typical night's sleep look like for you?
+
+Also, do you find that you're having trouble falling asleep, staying asleep, or waking up frequently during the night? Are there any specific thoughts or feelings that might be contributing to your difficulty sleeping?
+
+Lastly, have you noticed any other symptoms like fatigue, mood changes, or difficulty concentrating during the day?
+
+Remember, I'm not a doctor, and if your sleep issues persist, it's always best to consult with a healthcare professional for personalized guidance and support.",vague_symptom,the intent of this user message is: vague_symptom,1.0,41.98,1.0,False,LLM,0.652
+Any recent cases of measles in California?,"I'm happy to help! According to the California Department of Public Health, there have been reported cases of measles in California this year. However, I'm a large language model, I don't have access to real-time data or specific information about current outbreaks.
+
+If you're concerned about measles or have been exposed to someone with measles, I recommend reaching out to your healthcare provider or local health department for the most up-to-date information and guidance. They can assess your individual situation and offer personalized advice.
+
+Remember, it's always better to err on the side of caution when it comes to public health concerns. If you're experiencing symptoms or have concerns, don't hesitate to reach out to a medical professional for proper evaluation and care.",real_time,"i would classify the intent of this user message as ""medical_fact"". the user is asking about recent cases of a specific disease (measles) in a specific location (california), which indicates a desire for factual information about a medical topic.",1.0,45.74,1.0,False,LLM,0.804
+Any recent cases of measles in California?,"I'm happy to help! According to the California Department of Public Health, there have been reported cases of measles in California this year. However, I'm a large language model, I don't have access to real-time data or specific information about current outbreaks.
+
+If you're concerned about measles or have been exposed to someone with measles, I recommend reaching out to your healthcare provider or local health department for the most up-to-date information and guidance. They can assess your individual situation and offer personalized advice.
+
+Remember, it's always better to err on the side of caution when it comes to public health concerns. If you're experiencing symptoms or have concerns, don't hesitate to reach out to a medical professional for proper evaluation and care.",real_time,"i would classify the intent of this user message as: medical_fact.
+
+the message is inquiring about recent cases of a specific disease (measles) in a specific location (california), which suggests the user is seeking factual information related to public health.",1.0,46.16,1.0,False,LLM,0.804
+Is there a flu outbreak in New York?,"I'm happy to help! As a large language model, I don't have access to real-time data or specific information about flu outbreaks in New York or any other location.
+
+However, I can suggest some reliable sources where you can find the most up-to-date information:
+
+1. The New York State Department of Health (NYSDOH) website: They provide information on flu activity, outbreaks, and vaccination resources.
+2. The Centers for Disease Control and Prevention (CDC) website: They track flu activity across the United States and provide updates on outbreaks, vaccination, and treatment.
+3. Your local healthcare provider or hospital: They can provide you with information on local flu activity, outbreaks, and vaccination options.
+
+If you're experiencing symptoms or have concerns about the flu, I recommend reaching out to a medical professional for proper evaluation and care. Remember, it's always better to err on the side of caution when it comes to your health!",real_time,intent: real_time,1.0,48.93,1.0,False,LLM,0.681
+I have no appetite.,"I'm so sorry to hear that you're experiencing a loss of appetite. This can be a challenging and frustrating experience, especially if you're used to enjoying food.
+
+Can you tell me a bit more about what's been going on? When did you first notice that your appetite was decreasing? Was it sudden or did it happen gradually?
+
+Also, have you noticed any other symptoms like nausea, vomiting, or stomach pain? Are you experiencing any emotional changes like stress, anxiety, or depression?",vague_symptom,the intent of this user message is: specific_symptom.,1.0,49.9,1.0,False,LLM,0.772
+Is there a flu outbreak in New York?,"I'm happy to help! As a large language model, I don't have access to real-time data or specific information about flu outbreaks in New York or any other location.
+
+However, I can suggest some reliable sources where you can find the most up-to-date information:
+
+1. The New York State Department of Health (NYSDOH) website: They provide information on flu activity, outbreaks, and vaccination resources.
+2. The Centers for Disease Control and Prevention (CDC) website: They track flu activity across the United States and provide updates on outbreaks, vaccination, and treatment.
+3. Your local healthcare provider or hospital: They can provide you with information on local flu activity, outbreaks, and vaccination options.
+
+If you're experiencing symptoms or have concerns about the flu, I recommend reaching out to a medical professional for proper evaluation and care. Remember, it's always better to err on the side of caution when it comes to your health!",real_time,the intent of this user message is: medical_fact,1.0,51.2,1.0,False,LLM,0.681

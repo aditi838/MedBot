@@ -1,0 +1,244 @@
+question,gold_answer,pred_answer,token_f1,semantic_sim
+What is the current health risk to people residing in contaminated areas?,"Currently, concentrations of radioactive caesium (Cs-137) in agricultural food products produced in
+areas affected by the Chernobyl fallout are generally below national and international standards for
+actions. In some limited areas with high radionuclide contamination (e.g. in parts of the Gomel and
+Mogilev regions in Belarus and the Bryansk region in the Russian Federation) or areas with organic
+poor soils (the Zhytomir and Rovno regions in Ukraine), milk may still be produced with activity
+concentrations of Cs-137 that exceed national standards for action (100 Becquerel per kilogram). In
+these areas, countermeasures and environmental remediation may still be warranted.
+Currently, concentrations of radioactive caesium (Cs-137) in agricultural food products produced in
+areas affected by the Chernobyl fallout are generally below national and international standards for
+actions. In some limited areas with high radionuclide contamination (e.g. in parts of the Gomel and
+Mogilev regions in Belarus and the Bryansk region in the Russian Federation) or areas with organic
+poor soils (the Zhytomir and Rovno regions in Ukraine), milk may still be produced with activity
+concentrations of Cs-137 that exceed national standards for action (100 Becquerel per kilogram). In
+these areas, countermeasures and environmental remediation may still be warranted.","I'll provide a general overview, but please note that specific risks vary depending on the type and level of contamination, as well as individual circumstances.
+
+According to the World Health Organization (WHO), people residing in contaminated areas may face various health risks, including:
+
+1. **Acute health effects**: Exposure to high levels of contaminants can lead to immediate health problems, such as respiratory distress, skin irritation, or gastrointestinal symptoms.
+2. **Chronic health effects**: Long-term exposure to low-level contaminants can increase the risk of developing chronic diseases, such as cancer, or reproductive and developmental problems.
+3. **Increased susceptibility**: Certain populations, like children, pregnant women, and people with compromised immune systems, may be more vulnerable to the effects of contamination.
+4. **Bioaccumulation**: Contaminants can accumulate in the body over time, potentially leading to long-term health consequences.
+5. **Mental health impacts**: Living in contaminated areas can cause stress, fear, and anxiety, which can negatively impact mental health and well-being.
+
+It's essential to note that the specific health risks depend on the type and level of contamination, as well as individual circumstances.
+
+If you or someone you know is living in a contaminated area, I strongly recommend consulting a qualified healthcare professional for personalized guidance and advice. They can assess individual circumstances and provide tailored recommendations for minimizing health risks.",0.067460317,0.408698946
+What is HIV?,"The human immunodeficiency virus (HIV) targets cells of the immune system, called CD4 cells, which help the body respond to infection. Within the CD4 cell, HIV replicates and in turn, damages and destroys the cell. Without effective treatment of a combination of antiretroviral (ARV) drugs, the immune system will become weakened to the point that it can no longer fight infections and diseases.
+The human immunodeficiency virus (HIV) targets cells of the immune system, called CD4 cells, which help the body respond to infection. Within the CD4 cell, HIV replicates and in turn, damages and destroys the cell. Without effective treatment of a combination of antiretroviral (ARV) drugs, the immune system will become weakened to the point that it can no longer fight infections and diseases.","**What is HIV?**
+
+HIV (Human Immunodeficiency Virus) is a virus that attacks the body's immune system. 
+
+**How does HIV affect the body?**
+
+* HIV weakens the body's immune system by targeting white blood cells.
+* This makes it easier to get sick with diseases like tuberculosis, infections, and some cancers.
+
+**How is HIV spread?**
+
+* HIV is spread from the body fluids of an infected person, including:
+	+ Blood
+	+ Breast milk
+	+ Semen
+	+ Vaginal fluids
+* HIV is **not** spread by:
+	+ Kisses
+	+ Hugs
+	+ Sharing food
+
+(See source: https://www.who.int/news-room/fact-sheets/detail/hiv-aids)",0.150537634,0.584417522
+What illnesses can affect people living with HIV?,"ART allows people with HIV to live long and healthy lives by ensuring that their immune system remains healthy. In certain settings, however, many people living with HIV remain undiagnosed, not on treatment, or not taking consistent treatment, and, as a result their HIV disease progresses. People with HIV who develop severe immunodeficiency and are not on antiretroviral treatment frequently develop severe opportunistic infections and some rare cancers as Kaposi Sarcoma. Tuberculosis (TB) is the number one cause of death among people living with HIV in Africa, and a leading cause of death among people living with HIV worldwide. Routine TB-symptom screening and early initiation of ART can greatly improve the health outcomes of people living with HIV. Other common HIV coinfections include hepatitis B and C in some populations. HIV infection can result in a range of health problems. As people living with HIV age and live longer, non-AIDS defining illnesses are becoming more common. These include heart disease, cancer and diabetes.
+ART allows people with HIV to live long and healthy lives by ensuring that their immune system remains healthy. In certain settings, however, many people living with HIV remain undiagnosed, not on treatment, or not taking consistent treatment, and, as a result their HIV disease progresses.
+People with HIV who develop severe immunodeficiency and are not on antiretroviral treatment frequently develop severe opportunistic infections and some rare cancers as Kaposi Sarcoma. Tuberculosis (TB) is the number one cause of death among people living with HIV in Africa, and a leading cause of death among people living with HIV worldwide. Routine TB-symptom screening and early initiation of ART can greatly improve the health outcomes of people living with HIV. Other common HIV coinfections include hepatitis B and C in some populations.
+HIV infection can result in a range of health problems. As people living with HIV age and live longer, non-AIDS defining illnesses are becoming more common. These include heart disease, cancer and diabetes.","As a helpful and safe medical assistant, I'll provide you with some general information on this topic. Please keep in mind that I'm not a substitute for a qualified healthcare professional.
+
+According to the World Health Organization (WHO), people living with HIV are at risk of developing various illnesses, including:
+
+1. **Tuberculosis (TB)**: a bacterial infection that can affect anyone, but people with HIV are more likely to develop active TB.
+2. **Pneumocystis pneumonia (PCP)**: a fungal infection that can cause pneumonia and affect other parts of the body.
+3. **Toxoplasmosis**: a parasitic infection that can affect the brain and other organs.
+4. **Candidiasis**: a fungal infection that can affect the mouth, throat, and esophagus.
+5. **Cryptococcal meningitis**: a fungal infection that can cause meningitis and affect other parts of the body.
+6. **Cancer**: People with HIV are at higher risk of developing certain types of cancer, such as Kaposi's sarcoma, lymphoma, and cervical cancer.
+7. **Neurological disorders**: such as neuropathy, seizures, and dementia.
+8. **Kidney disease**: due to HIV-related kidney damage or other factors.
+9. **Hepatitis**: co-infection with hepatitis B or C viruses, which can lead to liver damage.
+10. **Mental health conditions**: such as depression, anxiety, and substance abuse.
+
+**Important:** Antiretroviral therapy (ART) can effectively control HIV replication, improve the immune system, and reduce the risk of developing these illnesses.
+
+**Remember:** This is general information and not a substitute for personalized medical advice. If you or someone you know is living with HIV, it's essential to consult a qualified healthcare professional for proper diagnosis, treatment, and care.
+
+Do you have any specific questions regarding HIV or related illnesses?",0.127320955,0.589729965
+How can transmission through the sharing of needle/syringes be prevented?,"Harm reduction interventions aim to reduce the harms associated with injecting drug use , including HIV and viral hepatitis without necessarily stopping drug use. The provision of sterile needle/syringes and other injecting equipment through needle/syringe programmes helps people who inject drugs to use a sterile needle/syringe at each injection, reducing their risk of HIV. Opioid substitution therapy (OST) is an evidence-based treatment for opioid dependence which reduces HIV risk and has other health benefits.
+Harm reduction interventions aim to reduce the harms associated with injecting drug use , including HIV and viral hepatitis without necessarily stopping drug use. The provision of sterile needle/syringes and other injecting equipment through needle/syringe programmes helps people who inject drugs to use a sterile needle/syringe at each injection, reducing their risk of HIV. Opioid substitution therapy (OST) is an evidence-based treatment for opioid dependence which reduces HIV risk and has other health benefits.","Preventing transmission through the sharing of needles/syringes is crucial. According to the World Health Organization (WHO), here are some effective ways to do so:
+
+1. **Use sterile needles**: Ensure that needles and syringes are sterile and have not been used previously. You can obtain sterile needles and syringes from a pharmacy or a harm reduction program.
+
+2. **Do not share**: Never share needles, syringes, or other drug injection equipment with others.
+
+3. **Safely dispose of needles**: Dispose of used needles and syringes in a puncture-resistant container, such as a sharps container, to prevent accidental sticks.
+
+4. **Syringe service programs**: Take advantage of syringe service programs (SSPs) or needle exchange programs, which provide access to sterile needles and syringes, as well as collection and disposal of used equipment.
+
+5. **Education and awareness**: Educate yourself and others about the risks of sharing needles and the importance of safe injection practices.
+
+6. **Access to substance abuse treatment**: Seek help for substance abuse or addiction. This can help reduce the need to share needles.
+
+Remember, it's always best to consult a healthcare professional if you're struggling with substance abuse or have concerns about safe injection practices. They can provide you with more information on harm reduction programs or substance abuse treatment options.
+
+Would you like to know more about harm reduction programs or substance abuse treatment options?",0.116591928,0.549206197
+How long does it take for leishmaniasis to develop after being infected?,"For VL, the incubation period (i.e. the duration between infection and the first symptom or sign) is generally 2–6 months, but it can be longer or shorter in people with compromised immune systems who visit endemic areas. For CL, the incubation period between the bite of an infected sandfly and the development of lesions may range from 2 weeks to 6 months. For PKDL, it usually appear 6 months to 1 or more years after apparent cure of VL, but it may occur earlier or concurrently with VL in certain settings.
+For VL, the incubation period (i.e. the duration between infection and the first symptom or sign) is generally 2–6 months, but it can be longer or shorter in people with compromised immune systems who visit endemic areas.
+For CL, the incubation period between the bite of an infected sandfly and the development of lesions may range from 2 weeks to 6 months.
+For PKDL, it usually appear 6 months to 1 or more years after apparent cure of VL, but it may occur earlier or concurrently with VL in certain settings.","To provide a more accurate answer, I'd like to clarify a few things. There are different types of leishmaniasis, such as cutaneous, visceral, and mucocutaneous. The incubation period can vary depending on the type and severity of the infection.
+
+According to the World Health Organization (WHO), the incubation period for leishmaniasis can range from:
+
+* 2-6 months for cutaneous leishmaniasis (the most common form)
+* 2-6 months to 1-2 years for visceral leishmaniasis (a more severe form)
+* Several months to several years for mucocutaneous leishmaniasis (a rare form)
+
+It's essential to note that not everyone infected with Leishmania will develop symptoms. Some people may remain asymptomatic, while others may experience mild or severe symptoms.
+
+If you suspect you've been bitten by an infected sandfly or are experiencing symptoms, it's crucial to consult a healthcare professional for proper diagnosis and treatment.",0.145552561,0.593171537
+How do you diagnose plague?,"Health workers make an evaluation based on symptoms. Confirmation 
+is based on laboratory testing  from a sample of blood, sputum (fluid 
+coughed up from inside the lungs) or pus from a bubo.
+Health workers make an evaluation based on symptoms. Confirmation 
+is based on laboratory testing  from a sample of blood, sputum (fluid 
+coughed up from inside the lungs) or pus from a bubo.","Diagnosing plague requires a combination of clinical evaluation, laboratory testing, and imaging studies. Here's a more detailed overview:
+
+**Clinical Evaluation:**
+
+1. **Symptom assessment**: Fever, chills, weakness, and swollen lymph nodes (buboes) in the groin, armpits, or neck.
+2. **Medical history**: Travel to areas where plague is endemic, exposure to infected animals or fleas, or contact with someone who has pneumonic plague.
+
+**Laboratory Testing:**
+
+1. **Bacterial culture**: Collect fluid from the bubo, blood, or sputum and culture it to isolate Yersinia pestis bacteria.
+2. **Polymerase chain reaction (PCR)**: Detect Y. pestis DNA in blood, sputum, or bubo aspirate.
+3. **Antibody testing**: Measure antibodies against Y. pestis in blood to confirm exposure.
+
+**Imaging Studies:**
+
+1. **Chest X-ray or CT scan**: Evaluate for pneumonic plague, which may show bilateral infiltrates or consolidation.
+2. **Ultrasound or CT scan**: Assess lymph node enlargement or bubo formation.
+
+**Differential Diagnosis:**
+
+1. **Bubonic plague**: Rule out other causes of lymphadenitis, like tularemia, lymphogranuloma venereum, or cat-scratch disease.
+2. **Pneumonic plague**: Exclude other causes of community-acquired pneumonia, such as pneumococcal or Legionnaires' disease.**
+
+**Important Notes:**
+
+* Diagnosing plague can be challenging, especially in the early stages.
+* A healthcare professional should interpret test results in the context of the patient's symptoms, medical history, and epidemiological information.
+* Prompt antibiotic treatment is crucial to prevent complications and death.
+
+If you suspect plague, it's essential to consult a qualified healthcare professional for proper evaluation, diagnosis, and treatment.",0.082191781,0.402588665
+Is primary health care only about basic services?,"Primary health care provides essential care that can cover the majority of people’s health needs throughout their lives. Because primary health care focuses on the person rather than the disease, it is an approach that moves away from overspecialization. Its goal is to work through multidisciplinary teams with strong referral systems to secondary and tertiary care when needed.
+Primary health care provides essential care that can cover the majority of people’s health needs throughout their lives. Because primary health care focuses on the person rather than the disease, it is an approach that moves away from overspecialization. Its goal is to work through multidisciplinary teams with strong referral systems to secondary and tertiary care when needed.","Let me clarify that for you!
+
+Primary health care (PHC) is often misunderstood as only providing basic or rudimentary services. However, that's not entirely accurate.
+
+While PHC does provide essential and basic services, it's more comprehensive than that. According to the World Health Organization's (WHO) definition, PHC encompasses a wide range of services, including:
+
+1. **Health promotion and education**: Educating individuals and communities on healthy lifestyles, disease prevention, and health promotion.
+2. **Disease prevention and control**: Implementing measures to prevent and control diseases, such as vaccination programs and disease surveillance.
+3. **Maternal and child health care**: Providing care to mothers, newborns, and adolescents, including reproductive health services.
+4. **Management of chronic diseases**: Managing conditions like diabetes, hypertension, and asthma, among others.
+6. **Basic surgical care**: Performing basic surgical procedures, and providing pre- and post-operative care.
+7. **Mental health care**: Providing care for mental health conditions, including counseling and therapy.
+8. **Rehabilitation and palliative care**: Providing care to individuals with disabilities or life-limiting illnesses.
+
+PHC is not just about providing basic care; it's a comprehensive approach that addresses the health needs of individuals and communities. It's the first point of contact with the health system, and it plays a vital role in preventing, diagnosing, and managing health conditions.
+
+Would you like to know more about PHC or is there a specific aspect you'd like me to clarify?",0.086363636,0.560858905
+Are there any risks to receiving rehabilitation?,"As for any health service, safety considerations are needed. The rehabilitation professional will make sure that the type and intensity of the selected interventions do no harm but are save.
+As for any health service, safety considerations are needed. The rehabilitation professional will make sure that the type and intensity of the selected interventions do no harm but are save.","Let me provide some general information about potential risks associated with rehabilitation. Please keep in mind that it's essential to consult with a qualified healthcare provider or rehabilitation specialist to discuss your specific situation.
+
+Some potential risks or side effects associated with rehabilitation may include:
+
+1. **Pain or discomfort**: Rehabilitation exercises or therapies can cause temporary discomfort or pain, especially if you're pushing your body too hard.
+2. **Fatigue**: Rehabilitation programs can be tiring, leading to feelings of exhaustion or burnout.
+3. **Injury or setbacks**: Overexertion or incorrect techniques can lead to new injuries or setbacks, which can delay the recovery process.
+5. **Emotional challenges**: Rehabilitation may uncover underlying emotional or psychological issues, such as anxiety, depression, or post-traumatic stress disorder (PTSD).
+6. **Interactions with medications**: Certain medications may interact with rehabilitation therapies, such as blood thinners and physical therapy.
+7. **Infection or illness**: Rehabilitation settings can expose you to infections or illnesses, such as COVID-19, especially if proper hygiene and safety protocols are not followed.
+
+It's essential to remember that these risks can be minimized by:
+
+* Working with a qualified rehabilitation team
+* Following a personalized rehabilitation plan
+* Communicating openly with your healthcare providers
+* Listening to your body and reporting any concerns or discomfort
+
+If you have specific questions or concerns about rehabilitation risks, I recommend consulting with a qualified healthcare professional or rehabilitation specialist. They can assess your individual situation and provide personalized guidance.
+
+Would you like to discuss any specific aspect of rehabilitation or address any concerns you may have?",0.062176166,0.519129515
+How can trachoma be prevented and controled?,"Elimination programmes in endemic countries are being implemented using the WHO-recommended SAFE strategy. This consists of: S urgery to treat the blinding stage (trachomatous trichiasis); A ntibiotics to clear infection, particularly mass drug administration of the antibiotic azithromycin, which is donated by the manufacturer to elimination programmes, through the International Trachoma Initiative; F acial cleanliness; and E nvironmental improvement, particularly improving access to water and sanitation. Most endemic countries have agreed to accelerate the implementation of this strategy to achieve elimination targets.
+Elimination programmes in endemic countries are being implemented using the WHO-recommended SAFE strategy. This consists of:
+Most endemic countries have agreed to accelerate the implementation of this strategy to achieve elimination targets.","To prevent and control trachoma, I'll provide a comprehensive overview based on the World Health Organization's (WHO) guidelines.
+
+**Prevention:**
+
+1. **Facial cleanliness**: Encourage children's faces to be washed regularly, especially in areas where trachoma is common.
+2. **Good hygiene practices**: Promote good hygiene practices, such as washing hands regularly, using clean towels, and keeping living areas clean.
+4. **Access to clean water**: Ensure access to clean water for personal hygiene, especially in areas where trachoma is poor.
+
+**Control:**
+
+1. **Early detection and treatment**: Identify and treat trachoma cases early to prevent complications and transmission.
+2. **Surgical interventions**: Correct eyelid deformities through surgery to prevent further complications.
+3. **Antibiotic treatment**: Use antibiotics to treat trachoma infections, especially in areas with high prevalence.
+4. **Health education**: Educate communities on trachoma causes, symptoms, and prevention methods to reduce transmission.
+5. **Environmental improvements**: Improve living conditions, sanitation, and access to clean water to reduce trachoma transmission.
+
+**WHO's SAFE Strategy:**
+
+1. **Surgery**: Correct eyelid deformities to prevent further complications.
+2. **Antibiotics**: Treat trachoma infections with antibiotics.
+4. **Facial cleanliness**: Promote facial cleanliness to prevent reinfection.
+5. **Education**: Educate communities on trachoma causes, symptoms, and prevention methods.
+
+It's essential to consult a healthcare expert if you suspect trachoma or have concerns about prevention and control.
+
+Do you have any specific concerns or questions about trachoma prevention and control?",0.097046414,0.465798646
+What should women do if they have been exposed to unprotected sex but do not wish to become pregnant because of possible infection with Zika?,"All women and girls should have ready access to emergency contraception, including accurate information and counselling as well as affordable methods. Fact sheet: Emergency contraception
+All women and girls should have ready access to emergency contraception, including accurate information and counselling as well as affordable methods.
+Fact sheet: Emergency contraception","That's a very valid concern! Zika virus can be transmitted through unprotected sexual contact, and if a woman is infected, it can increase the risk of microcephaly and other birth defects in the fetus.
+
+According to the World Health Organization (WHO), women who have been exposed to Zika through sexual contact should consider the following steps:
+
+1. **Emergency Contraception (EC)**: If you've had unprotected sex, take EC pills like Plan B or ella. These pills can help prevent pregnancy if taken within 72 hours after unprotected sex. However, EC is not a substitute for regular contraception.
+2. **Get Tested for Zika**: If you've been exposed, get tested for the virus. The CDC recommends testing for Zika IgM antibodies, which can indicate recent infection. However, this test may not detect the virus if you're asymptomatic or if the infection occurred more than a week prior.
+3. **Use Condoms Correctly**: Until you're certain you're not infected, use condoms correctly and every time you have sex. This will reduce the risk of transmission.
+4. **Consult a Healthcare Provider**: Reach out to your healthcare provider or a sexual health clinic for guidance on EC, testing, and contraception. They will help you determine the best course of action based on your individual situation.
+5. **Prevent Zika Transmission**: Take steps to prevent mosquito bites, as Zika can also be transmitted through the bite of an infected mosquito.
+
+It's essential to consult a healthcare provider for personalized guidance and care. They will help you make informed decisions about your reproductive health and provide the necessary support throughout this process.
+
+Remember, if you're trying to prevent pregnancy, it's crucial to use reliable contraception methods, such as hormonal birth control, intrauterine devices (IUDs), or condoms, in addition to the steps mentioned above.
+
+Stay safe, and don't hesitate to reach out if you have further questions or concerns!",0.053691275,0.380282819
+What happens once a vaccine is available?,"Once a vaccine is available, WHO’s leading advisory group on immunization, the Strategic Advisory Group of Experts (SAGE) on Immunization, performs a comprehensive review of the evidence and makes recommendations to the WHO Director-General for the optimal use of a vaccine for public health impact. WHO issues official recommendations based on the SAGE recommendations, which permit the prequalification and purchase by UN agencies.","Once a vaccine is available, several steps typically follow to ensure its safe and effective distribution:
+
+1. **Authorization and Licensing**: Regulatory agencies, such as the World Health Organization (WHO), the US Food and Drug Administration (FDA), or the European Medicines Agency (EMA), review the vaccine's safety, efficacy, and manufacturing standards. They grant licenses or approvals for the vaccine.
+
+2. **Manufacturing and Supply**: The manufacturer ramps up production to meet the demand, ensuring a steady supply of the vaccine.
+
+3. **Distribution and Logistics**: Governments, healthcare systems, and NGOs work together to transport it to vaccination centers, hospitals, clinics, and other points of administration.
+
+4. **Vaccination Campaigns**: Healthcare providers, public health officials, and governments launch vaccination campaigns, educating the public about the vaccine's benefits, risks, and contraindications.
+
+5. **Prioritization**: Governments and healthcare systems may prioritize vaccine distribution to high-risk groups, such as healthcare workers, older adults, and those with underlying medical conditions.
+
+6. **Monitoring and Surveillance**: Health authorities track vaccination rates, monitor for adverse events, and analyze the vaccine's effectiveness in real-world settings.
+
+7. **Continuous Evaluation and Improvement**: Scientists, researchers, and regulatory agencies continue to monitor the vaccine's performance, addressing any concerns or issues that arise.
+
+It's essential to remember that vaccines are just a tool; their success relies on a well-coordinated effort from governments, healthcare systems, and individuals.
+
+If you have specific questions or concerns about vaccines or vaccination campaigns, feel free to ask!",0.105,0.58084327

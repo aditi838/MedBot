@@ -1,0 +1,30 @@
+question,expected_keywords,expected_answer,intent
+Any recent cases of measles in California?,"measles,California","Yes, there have been reported cases of measles in California recently.",real_time
+Any recent cases of measles in California?,"measles,California","Yes, there have been reported cases of measles in California recently.",real_time
+I feel dizzy and lightheaded.,"clarify,describe,symptom,more",Can you describe your symptoms in more detail? Are you also experiencing nausea or vision problems?,vague_symptom
+Is there a flu outbreak in New York?,"flu,New York","Yes, there's currently a flu outbreak in New York according to local health authorities.",real_time
+Is there a flu outbreak in New York?,"flu,New York","Yes, there's currently a flu outbreak in New York according to local health authorities.",real_time
+I can't sleep well lately.,"clarify,detail,symptom,describe",How long have you been experiencing sleep issues? Are there any other symptoms?,vague_symptom
+I can't sleep well lately.,"clarify,detail,symptom,describe",How long have you been experiencing sleep issues? Are there any other symptoms?,vague_symptom
+Any recent cases of measles in California?,"measles,California","Yes, there have been reported cases of measles in California recently.",real_time
+I feel dizzy and lightheaded.,"clarify,describe,symptom,more",Can you describe your symptoms in more detail? Are you also experiencing nausea or vision problems?,vague_symptom
+I can't sleep well lately.,"clarify,detail,symptom,describe",How long have you been experiencing sleep issues? Are there any other symptoms?,vague_symptom
+I can't sleep well lately.,"clarify,detail,symptom,describe",How long have you been experiencing sleep issues? Are there any other symptoms?,vague_symptom
+Any recent cases of measles in California?,"measles,California","Yes, there have been reported cases of measles in California recently.",real_time
+Is COVID-19 spreading in India?,"COVID-19,India","Yes, COVID-19 cases are currently increasing in some parts of India.",real_time
+Any recent cases of measles in California?,"measles,California","Yes, there have been reported cases of measles in California recently.",real_time
+Is there a flu outbreak in New York?,"flu,New York","Yes, there's currently a flu outbreak in New York according to local health authorities.",real_time
+I feel dizzy and lightheaded.,"clarify,describe,symptom,more",Can you describe your symptoms in more detail? Are you also experiencing nausea or vision problems?,vague_symptom
+I can't sleep well lately.,"clarify,detail,symptom,describe",How long have you been experiencing sleep issues? Are there any other symptoms?,vague_symptom
+Is there a flu outbreak in New York?,"flu,New York","Yes, there's currently a flu outbreak in New York according to local health authorities.",real_time
+Is there a flu outbreak in New York?,"flu,New York","Yes, there's currently a flu outbreak in New York according to local health authorities.",real_time
+I can't sleep well lately.,"clarify,detail,symptom,describe",How long have you been experiencing sleep issues? Are there any other symptoms?,vague_symptom
+I can't sleep well lately.,"clarify,detail,symptom,describe",How long have you been experiencing sleep issues? Are there any other symptoms?,vague_symptom
+Any recent cases of measles in California?,"measles,California","Yes, there have been reported cases of measles in California recently.",real_time
+Any recent cases of measles in California?,"measles,California","Yes, there have been reported cases of measles in California recently.",real_time
+Is there a flu outbreak in New York?,"flu,New York","Yes, there's currently a flu outbreak in New York according to local health authorities.",real_time
+I have no appetite.,"clarify,detail,symptom,describe",Can you tell me more about when the loss of appetite started and if you have any other symptoms?,vague_symptom
+Is there a flu outbreak in New York?,"flu,New York","Yes, there's currently a flu outbreak in New York according to local health authorities.",real_time
+I feel dizzy and lightheaded.,"clarify,describe,symptom,more",Can you describe your symptoms in more detail? Are you also experiencing nausea or vision problems?,vague_symptom
+I have no appetite.,"clarify,detail,symptom,describe",Can you tell me more about when the loss of appetite started and if you have any other symptoms?,vague_symptom
+Is there a flu outbreak in New York?,"flu,New York","Yes, there's currently a flu outbreak in New York according to local health authorities.",real_time
