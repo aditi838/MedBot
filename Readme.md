@@ -32,8 +32,8 @@ MedBot is an AI-powered healthcare chatbot designed to provide users with **reli
 
 | Chat Interface |
 |----------------|
-| (![image](https://github.com/user-attachments/assets/c5bab14f-4c41-4260-9436-15827e4aae12)
-) |
+| ![image](https://github.com/user-attachments/assets/c5bab14f-4c41-4260-9436-15827e4aae12)
+ |
 
 ---
 
