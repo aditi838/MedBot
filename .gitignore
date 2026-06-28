@@ -209,10 +209,6 @@ tempCodeRunnerFile.py
 # PyPI configuration file
 .pypirc
 
-# ChromaDB local store
-chroma_db/
-*.sqlite3
-
 # Marimo
 marimo/_static/
 marimo/_lsp/
