@@ -1,113 +1,178 @@
-# MedBot – AI Healthcare Chatbot 🤖🩺
+# MedBot — RAG Healthcare Assistant
 
-MedBot is an AI-powered healthcare chatbot designed to provide users with **reliable health information** through natural, empathetic conversations. It combines **context awareness**, **retrieval-augmented generation (RAG)**, and **real-time web search** to assist users with common health-related questions.
+MedBot is a Retrieval-Augmented Generation (RAG) healthcare assistant that answers health-related questions using WHO knowledge, semantic search, intent-aware routing, and conversation memory. It uses Groq-hosted Llama 3 70B for response generation and Tavily for real-time health lookups.
 
----
-
-## 🚀 Features
-
-- 💬 **Context-aware Conversations**: Remembers recent dialogue to give meaningful responses.
-- 🧠 **Intent Detection & Topic Extraction**: Understands user queries and extracts key medical topics.
-- 📚 **WHO-based Document Retrieval**: Uses RAG pipeline over WHO health documents.
-- 🌐 **Real-time Web Search**: Integrates Tavily API to fetch current and relevant health updates.
-- 💡 **Empathetic Response Generation**: Prioritizes user mental wellness through tone-aware replies.
+> **Disclaimer:** MedBot is an academic prototype. It is not a substitute for professional medical advice.
 
 ---
 
-## 🛠️ Tech Stack
+## How it works
 
-| Tool              | Purpose                             |
-|-------------------|-------------------------------------|
-| **Python**        | Core backend logic                  |
-| **FastAPI**       | Backend API development             |
-| **Streamlit**     | Frontend interface                  |
-| **LangChain**     | RAG pipeline, agents, and memory    |
-| **ChromaDB**      | Vector storage for document retrieval |
-| **Groq-hosted LLMs** | Fast and efficient language generation |
-| **Tavily API**    | Real-time search and web summarization |
+Every user query follows a deterministic pipeline before reaching the language model:
 
----
+```
+User Query
+    │
+    ▼
+Intent Classification  (6 classes)
+    │
+    ├── medical_fact      →  WHO RAG (ChromaDB retrieval)
+    ├── specific_symptom  →  WHO RAG (ChromaDB retrieval)
+    ├── follow_up_detail  →  Conversation memory + WHO RAG
+    ├── vague_symptom     →  Clarification workflow
+    ├── real_time         →  Tavily Search
+    └── general_chat      →  Conversational LLM chain
+    │
+    ▼
+Groq · Llama 3 70B
+    │
+    ▼
+Grounded Response
+```
 
-## 📷 Screenshots
-
-| Chat Interface |
-|----------------|
-| ![image](https://github.com/user-attachments/assets/c5bab14f-4c41-4260-9436-15827e4aae12)
-
----
-
-## 📦 Installation
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/yourusername/medbot.git
-   cd medbot
-   ```
-
-2. **Create and activate virtual environment**
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
-   ```
-
-3. **Install dependencies**
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-4. **Run the app**
-   - Start **FastAPI backend**:
-     ```bash
-     uvicorn backend.main:app --reload
-     ```
-   - Launch **Streamlit frontend**:
-     ```bash
-     streamlit run Home.py
-     ```
+Routing ensures each query type gets a specialised chain rather than a single generic pipeline — reducing unnecessary retrieval and improving response quality.
 
 ---
 
-## 📁 Project Structure
+## Knowledge base
+
+- **31 WHO health pages** scraped and cleaned with a custom BeautifulSoup pipeline
+- **7,503 semantic chunks** indexed in ChromaDB using recursive character chunking (500 chars, 50 overlap)
+- **SentenceTransformer embeddings** for semantic similarity retrieval
+
+---
+
+## Evaluation
+
+A custom local evaluation framework was built to assess response quality without an external LLM judge:
+
+| Metric | Method |
+|---|---|
+| Semantic Similarity | Cosine similarity between generated and WHO reference answers (SentenceTransformer) |
+| Keyword Overlap | Factual term coverage between generated and reference responses |
+| Grounding Score | Whether generated claims are supported by retrieved WHO context |
+
+Evaluated on **231 benchmark questions** spanning all six intent categories.
+
+---
+
+## Tech stack
+
+| Layer | Tool |
+|---|---|
+| Frontend | Streamlit |
+| Backend | FastAPI |
+| LLM | Groq · Llama 3 70B |
+| Orchestration | LangChain |
+| Vector store | ChromaDB |
+| Embeddings | SentenceTransformers |
+| Real-time search | Tavily API |
+| Scraping | BeautifulSoup |
+
+---
+
+## Project structure
 
 ```
 MedBot/
-├── Home.py                      # Streamlit app interface
-├── ai_agent.py                  # LangChain agent logic for query handling
-├── backend.py                   # Backend control and coordination(using FastAPI)
-├── evaluator.py                 # Evaluation logic and RAG metrics
-├── eval_WHO_QnA_Pairs.py        # Evaluation script for WHO Q&A pairs
-├── eval_QnA_Visuals.py          # Visualization of evaluation results
-├── who_scraper.py               # Scraper for WHO Q&A content
-├── requirements.txt             # Python dependencies
-
-# Data & Evaluation Files
-├── debug_results.csv
-├── disease_qna_pairs.csv
-├── evaluation_results_api_new.csv
-├── low_performance_cases.csv
-├── matched_factsheets_qna.csv
-├── sample_eval_dataset.csv
-
-└── README.md                    # Project documentation
+├── Home.py                       # Streamlit frontend
+├── backend.py                    # FastAPI backend
+├── ai_agent.py                   # LangChain intent routing and chain logic
+├── who_scraper.py                # WHO page scraper and cleaner
+├── evaluator.py                  # Evaluation metrics (similarity, grounding, overlap)
+├── eval_WHO_QnA_Pairs.py         # Evaluation runner
+├── eval_QnA_Visuals.py           # Evaluation result visualisations
+├── requirements.txt              # Python dependencies
+├── .env.example                  # Environment variable template
+│
+└── data/                         # Evaluation outputs
+    ├── disease_qna_pairs.csv
+    ├── evaluation_results_api_new.csv
+    ├── low_performance_cases.csv
+    ├── matched_factsheets_qna.csv
+    └── sample_eval_dataset.csv
 ```
 
 ---
 
-## 🧠 Future Improvements
+## Setup
 
-- Add voice input support  
-- Enable user authentication for saving chat history  
-- Integrate more health datasets for broader coverage  
-- Add feedback collection mechanism
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/aditi838/MedBot.git
+cd MedBot
+```
+
+### 2. Create and activate a virtual environment
+
+```bash
+python -m venv venv
+source venv/bin/activate        # Windows: venv\Scripts\activate
+```
+
+### 3. Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Set up environment variables
+
+Copy the example file and fill in your API keys:
+
+```bash
+cp .env.example .env
+```
+
+```env
+GROQ_API_KEY=your_groq_api_key
+TAVILY_API_KEY=your_tavily_api_key
+```
+
+- Get a Groq key at [console.groq.com](https://console.groq.com)
+- Get a Tavily key at [tavily.com](https://www.tavily.com)
+
+### 5. Run the app
+
+Start the FastAPI backend:
+
+```bash
+uvicorn backend:app --reload
+```
+
+In a separate terminal, launch the Streamlit frontend:
+
+```bash
+streamlit run Home.py
+```
 
 ---
 
-## 🙌 Acknowledgements
+## Running the evaluation
+
+```bash
+python eval_WHO_QnA_Pairs.py     # Run evaluation against WHO Q&A benchmark
+python eval_QnA_Visuals.py       # Generate visualisation of results
+```
+
+---
+
+## Key engineering decisions
+
+**Why RAG?** LLMs hallucinate on medical questions. Grounding responses in retrieved WHO documents reduces that risk.
+
+**Why recursive chunking?** Fixed-size chunking split medical sentences mid-thought, degrading retrieval. Recursive chunking respects sentence and paragraph boundaries.
+
+**Why intent routing?** A single chain cannot cleanly handle medical facts, vague symptoms, follow-ups, and general chat simultaneously. Routing each to a specialised chain improved quality and reduced unnecessary retrieval.
+
+**Why shared memory?** Isolated per-chain memory objects silently break multi-turn conversations. A single shared `ConversationBufferMemory` instance passed into all chains keeps context consistent.
+
+---
+
+## Acknowledgements
 
 - [LangChain](https://www.langchain.com/)
-- [Tavily Search](https://www.tavily.com/)
 - [Groq Cloud](https://console.groq.com/)
-
----
-
-> 💡 *MedBot is an academic/educational prototype. It is not a replacement for professional medical advice.*
+- [Tavily Search](https://www.tavily.com/)
+- [WHO Health Topics](https://www.who.int/health-topics)
