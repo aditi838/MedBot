@@ -3,7 +3,7 @@ fastapi==0.115.9
 uvicorn==0.34.2
 langchain==0.3.24
 langchain-chroma==0.2.3
-langchain-community==0.3.22
+langchain-community==0.3.27
 langchain-core>=0.3.56
 langchain-groq==0.3.2
 langchain-huggingface==0.2.0
