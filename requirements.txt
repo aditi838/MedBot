@@ -7,7 +7,7 @@ langchain-community==0.3.27
 langchain-core>=0.3.56
 langchain-groq==0.3.2
 langchain-huggingface==0.2.0
-sentence-transformers==4.1.0
+sentence-transformers==5.6.0
 tavily-python==0.7.2
 python-dotenv==1.2.2
 beautifulsoup4==4.13.4
